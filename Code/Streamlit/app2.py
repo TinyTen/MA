@@ -3,7 +3,7 @@ import streamlit as st
 import math as math
 import pandas as pd
 import numpy as np
-import seaborn as sns
+# import seaborn as sns
 import streamlit as st
 from cmcrameri import cm
 from PIL import Image
