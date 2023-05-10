@@ -7,5 +7,4 @@ pyforest
 seaborn
 cmcrameri
 openpyxl
-sklearn
 scikit-learn
