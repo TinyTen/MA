@@ -12,7 +12,7 @@ Date: 02/2023
     import math as math
     import pandas as pd
     import numpy as np
-    import seaborn as sns
+#     import seaborn as sns
     import streamlit as st
     from cmcrameri import cm
     from PIL import Image
@@ -64,24 +64,24 @@ Date: 02/2023
 
 
 
-    with col2:
-        st.title('Welcome to DaPro, the ZHAW protein database')
-        st.metric(label="Count of parameters in database", value=len(df_food.columns))
-        st.metric(label="Count of food items in database", value=len(df_food))
-            # #plotly missing
-    #     fig2 = bar(y = missing.index , x = missing)
-    #     st.plotly_chart(fig2, use_container_width=True)
+#     with col2:
+#         st.title('Welcome to DaPro, the ZHAW protein database')
+#         st.metric(label="Count of parameters in database", value=len(df_food.columns))
+#         st.metric(label="Count of food items in database", value=len(df_food))
+#             # #plotly missing
+#     #     fig2 = bar(y = missing.index , x = missing)
+#     #     st.plotly_chart(fig2, use_container_width=True)
 
-                #seaborn missing
-    st.subheader('Currently, several food items lack information for some parameters. The graph shows which parameters have missing values and how many of them are missing.')
-    fig1 = plt.figure(figsize=(30, 30))
-    sns.barplot(y = missing.index , x = missing, color=zhaw_color)
-    plt.yticks(fontsize=60)
-    plt.xticks(fontsize=60)
-    plt.xlabel('Count of missing values per parameter', fontsize=60)
+#                 #seaborn missing
+#     st.subheader('Currently, several food items lack information for some parameters. The graph shows which parameters have missing values and how many of them are missing.')
+#     fig1 = plt.figure(figsize=(30, 30))
+#     sns.barplot(y = missing.index , x = missing, color=zhaw_color)
+#     plt.yticks(fontsize=60)
+#     plt.xticks(fontsize=60)
+#     plt.xlabel('Count of missing values per parameter', fontsize=60)
 
-    sns.despine(left=True, bottom=True)
-    st.pyplot(fig1)
+# #     sns.despine(left=True, bottom=True)
+#     st.pyplot(fig1)
 
 
     st.subheader('Overview over the database')
