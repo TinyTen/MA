@@ -35,11 +35,6 @@ This GitHub repository contains the code and resources for the Streamlit app dev
 ### Data Sources
 The ZHAW protein source database serves as the main data source for the app. The database contains comprehensive information on protein-rich foods, including nutritional data, sustainability measures, and processing details.
 
-Contact Information
-If you have any questions or feedback regarding the app or the research project, please feel free to reach out to me:
 
-[Your Name]
-[Your Email]
-[Your LinkedIn or other contact information]
 ### Acknowledgments
 I would like to express my gratitude to the ZHAW project team for their collaboration and the possibility to use the data.
