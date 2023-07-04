@@ -10,8 +10,7 @@ This GitHub repository contains the code and resources for the Streamlit app dev
 ### Content
  - Data and images for the streamlit app are in the folder "Code".
  - The streamlit.py and all pages are in the subfolder "Streamlit".
- - Jupyter Notebooks with the different stages of the visualization development can be found in the folder "Code" as well. These files are named **PageX_NameofSection_IterationY** and contain loading of data, data preprocessing, and several versions and drafts of visualizations. Most data needed to be stored as .xlsx - files since the database is connected to different sources via ontologies. The corresponding owl-files are not contained in the repo and therefore the data cannot and should not be directely read from the database draft.
-
+ - Jupyter Notebooks with the different stages of the visualization development can be found in the folder "Code" as well. These files are named **PageX_NameofSection_IterationY** and contain loading of data, data preprocessing, and several versions and drafts of visualizations.
 
 
 ### Usage of the Streamlit app
@@ -33,7 +32,7 @@ This GitHub repository contains the code and resources for the Streamlit app dev
  The app is self-explanatory. Food items and parameters can be chosen for each use case. Visualizations with the chosen variables are shown.
 
 ### Data Sources
-The ZHAW protein source database serves as the main data source for the app. The database contains comprehensive information on protein-rich foods, including nutritional data, sustainability measures, and processing details.
+The ZHAW protein source database serves as the main data source for the app. The database contains comprehensive information on protein-rich foods, including nutritional data, sustainability measures, and processing details. Most data needed to be stored as .xlsx - files since the database is connected to different sources via ontologies. The corresponding owl-files are not contained in the repo and therefore the data cannot yet be directely read from the database draft.
 
 
 ### Acknowledgments
