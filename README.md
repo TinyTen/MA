@@ -16,11 +16,11 @@ This GitHub repository contains the code and resources for the Streamlit app dev
 
 ### Usage of the Streamlit app
  - Clone the repository to your local machine (with code, data and images).
- - Enter the following command from the main folder (MA) on the command line: `streamlit run Code/Streamlit/visualization.py`.
+ - Enter the following command from the main folder (MA) on the command line: `streamlit run "Code\Streamlit\app.py"`.
  - The app will open in the web browser if there are no conflicts with the firewall.
  - If there are conflicts with different package versions, please open the folder in a virtual environment and reinstall the packages according to [requirements](https://github.com/TinyTen/MA/blob/main/Code/requirements.txt).
 
- Alternatively, the app can be run via following link: https://tinyten-ma-codestreamlitapp-lpn1aq.streamlit.app/
+ Alternatively, the app can be run via following [link](https://tinyten-ma-codestreamlitapp-lpn1aq.streamlit.app/).
 
 
   Use Cases/separate pages:
