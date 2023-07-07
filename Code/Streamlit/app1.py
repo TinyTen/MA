@@ -97,7 +97,7 @@ Date: 02/2023
     )
 
     x = st.selectbox('Please select the paramter of which you want to see the distribution',
-        ['ecological scarcity 2013, total, UBP/100g', 'Energy (kilojoule) _kJ/100g', 'Vitamin B12-Cobalamin_μg/100g','Fat_g/100g', 'Simply unsaturated fatty acids mg/100g'],
+        [ 'Protein_g/g', 'Alanin_mg/100g', 'Energy (kilojoule) _kJ/100g', 'Vitamin B12-Cobalamin_μg/100g','Fat_g/100g', 'Simply unsaturated fatty acids mg/100g'],
     )
 
     y = st.selectbox('Please select the paramter of which you want to see the distribution',
