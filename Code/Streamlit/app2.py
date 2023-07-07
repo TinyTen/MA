@@ -61,14 +61,14 @@ def app():
         'Please select the food items you want to compare:',
         options_food, default=['Apple', 'Cashew nut', 'Chicken'])
     
-    options = ['Protein_g/g', 'ecological scarcity 2013, total, UBP/100g', 'Eutrophying emissions per 100g (gPO₄eq per 100g}',
+    options = ['Protein_g/g', 'Eutrophying emissions per 100g (gPO₄eq per 100g}',
        'Land use per 100g (m² per 100g)', 
                 'Freshwater withdrawals per 100g (liters per 100g)' , 'Alanin_mg/100g', 'Arginin_mg/100g', 'Cystein_mg/100g', 'Histidin_mg/100g', 
         'Isoleucin_mg/100g',  'Lysin_mg/100g', 'Vitamin B12-Cobalamin_μg/100g', 'Sodium_mg/100g', 'Cholesterin_mg/100g', 'Fat_g/100g','Simply unsaturated fatty acids mg/100g',]
 
     parameters = st.multiselect(
         'Please select the paramters you want to compare:',
-        options, default=['Protein_g/g', 'ecological scarcity 2013, total, UBP/100g', 
+        options, default=['Protein_g/g', 
               'Freshwater withdrawals per 100g (liters per 100g)' , 'Alanin_mg/100g'])
 
 
@@ -110,7 +110,7 @@ def app():
         max_selections = 3)
     
 
-    options2 = ['Protein_g/g', 'ecological scarcity 2013, total, UBP/100g', 'Eutrophying emissions per 100g (gPO₄eq per 100g}',
+    options2 = ['Protein_g/g', 'Eutrophying emissions per 100g (gPO₄eq per 100g}',
        'Land use per 100g (m² per 100g)', 
                 'Freshwater withdrawals per 100g (liters per 100g)' , 'Alanin_mg/100g', 'Arginin_mg/100g', 'Cystein_mg/100g', 'Histidin_mg/100g', 
         'Isoleucin_mg/100g',  'Lysin_mg/100g', 'Vitamin B12-Cobalamin_μg/100g', 'Sodium_mg/100g', 'Cholesterin_mg/100g', 'Fat_g/100g', 'Simply unsaturated fatty acids mg/100g',]
@@ -118,7 +118,7 @@ def app():
 
     parameters2 = st.multiselect(
         'Please select the paramters you want to compare (max. 3 items):',
-        options2, default= ['Protein_g/g', 'ecological scarcity 2013, total, UBP/100g', 
+        options2, default= ['Protein_g/g', 
                             'Lysin_mg/100g'],
               max_selections = 3)
     
